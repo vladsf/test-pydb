@@ -1,5 +1,6 @@
 # Build and run test-pydb Docker image:
 ```
-docker build -t pydb .
-docker run -it --rm --name test-perldb pydb
+$ cd test-pydb/
+$ docker build -t pydb .
+$ docker run -it --rm --name test-perldb pydb
 ```
